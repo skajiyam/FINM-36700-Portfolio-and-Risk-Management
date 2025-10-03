@@ -21,11 +21,9 @@ A: For diversifiaction purposes it could be benficial for TIPS to form a new ass
 
 Q: Why does HMC focus on real returns when analyzing its portfolio allocation? Is this just a matter of scaling, or does using real returns versus nominal returns potentially change the MV solution?
 
-A:
+A: A potential reason for why HMC focuses on real returns could have to do with the fact that the the endowment finacnes a portion of Harvard's budget. Thus, HMC would need to account for inflation, as it affects aspects like scholarships and salaries, areas of Harvard's spending. Additionally, our MV solution from lecture focuses on excess returns, so using real returns would be ideal computationally.
 
-Q: The case discusses the fact that Harvard places bounds on the portfolio allocation rather than implementing whatever numbers come out of the MV optimization problem.
-
-    How might we adjust the stated optimization problem in the lecture notes to reflect the extra constraints Harvard is using in their bounded solutions given in Exhibits 5 and 6?
+Q: The case discusses the fact that Harvard places bounds on the portfolio allocation rather than implementing whatever numbers come out of the MV optimization problem. How might we adjust the stated optimization problem in the lecture notes to reflect the extra constraints Harvard is using in their bounded solutions given in Exhibits 5 and 6?
 
 A: 
 
