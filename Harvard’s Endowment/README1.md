@@ -33,4 +33,4 @@ A:
 
 Q: Exhibit 6 changes the constraints, (tightening them in most cases.) How much deterioration do we see in the mean-variance tradeoff that Harvard achieved?
 
-A: 
+A: From Exhbit 5 to Exhibit 6, the Sharpe ratios decrease from 0.38 to 0.35 or 0.36, indicating a decline in the optimization performance of approximately 9%. 
