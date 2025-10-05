@@ -32,7 +32,7 @@ $$
 \end{aligned}
 $$
 
-Here, any weights can be assinged as long as the equations above hold. 
+Any weights can be assinged as long as the equations above hold. 
 
 To transform the problem into a bounded quadratic programming problem, we should add a lower and upper limits for each asset class weight. The additional constraints for Exhibit 5 should be: 
 
