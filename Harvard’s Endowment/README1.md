@@ -7,11 +7,9 @@ Q1: There are thousands of individual risky assets in which HMC can invest. Expl
 A1: Investing across 1,000 securiites is infeasiable mathematically. In MV Optimization, we need to compute the inverse covariance matrix, which will have 1,000,000 entires, resulting in a computationally expensive procedure. Also, small errors in the expected returns or covariances will get amplified when taking the inverse, leading to overfittng. Implementing the resulting weights for all the assets would be impractical in reality, since frequent rebalancing would face high transaction costs and liquidity constraints.
 
 Q2: Rather than optimize across all securities directly, HMC runs a two-stage optimization.
-
-    1. They build asset class portfolios with each one optimized over the securities of the specific asset class.
-    2. HMC combines the asset-class portfolios into one total optimized portfolio.
-
-    In order for the two-stage optimization to be a good approximation of the full MV-optimization on all assets, what must be true of the partition of securities into asset classes?
+1. They build asset class portfolios with each one optimized over the securities of the specific asset class.
+2. HMC combines the asset-class portfolios into one total optimized portfolio.
+In order for the two-stage optimization to be a good approximation of the full MV-optimization on all assets, what must be true of the partition of securities into asset classes?
 
 A2: Within each specific asset class, securities should be highly correlated, and between the different asset classes, the asset classes should be less correlated.
 
@@ -21,7 +19,7 @@ A3: For diversifiaction purposes it could be benficial for TIPS to form a new as
 
 Q4: Why does HMC focus on real returns when analyzing its portfolio allocation? Is this just a matter of scaling, or does using real returns versus nominal returns potentially change the MV solution?
 
-A4: A potential reason for why HMC focuses on real returns could have to do with the fact that the the endowment finacnes a portion of Harvard's budget. Thus, HMC would need to account for inflation, as it affects aspects like scholarships and salaries, areas of Harvard's spending. Additionally, our MV solution from lecture focuses on excess returns, so using real returns would be ideal computationally.
+A4: A potential reason for why HMC focuses on real returns could have to do with the fact that the the endowment finacnes a portion of Harvard's budget. Thus, HMC would need to account for inflation, as it affects aspects like scholarships and salaries, areas of Harvard's spending. Additionally, our MV solution from lecture works using excess returns as an input, so using real returns would be ideal computationally.
 
 Q5: The case discusses the fact that Harvard places bounds on the portfolio allocation rather than implementing whatever numbers come out of the MV optimization problem. How might we adjust the stated optimization problem in the lecture notes to reflect the extra constraints Harvard is using in their bounded solutions given in Exhibits 5 and 6?
 
@@ -33,6 +31,8 @@ $$
 & \mathbf{1}^{\top} w = 1.
 \end{aligned}
 $$
+
+Here, any weights can be assinged as long as the equations above hold. 
 
 To transform the problem into a bounded quadratic programming problem, we should add a lower and upper limits for each asset class weight. The additional constraints for Exhibit 5 should be: 
 
