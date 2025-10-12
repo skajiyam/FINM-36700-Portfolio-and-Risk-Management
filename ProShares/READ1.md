@@ -10,9 +10,11 @@ Answer:
 a. Using just the information in the case, what are two measures by which hedge funds are an attractive investment?
 b. What are the main benefits of investing in hedge funds via an ETF instead of directly?
 
-a. Hedge funds, as the name suggests, tend to provide absolute returns regardless of the market condition (bearish or bullish). This became popular in the 1970s bear market. Additionally, due to their low correlation of returns with other equities, Hedge Replication ETFs provide an excellent way of diversifying the portfolio and reducing risk.
+a. Hedge funds, as the name suggests, tend to provide absolute returns regardless of the market condition (bearish or bullish). This became popular in the 1970s bear market. Additionally, due to their low correlation of returns with other equities, hedge funds provide an excellent way of diversifying the portfolio and reducing risk.
 
-b. It's more convenient to invest via an ETF, since hedge funds often only allow accredited investors with a certain net worth to invest.
+Using information just from the case, according to slide 8, hedge funds delivered 10% higher reutrns than stocks and over twice that of bonds. Furthermore, HFRI showed an attractive sharpe ratio from 1994 to 2013 and displayed less than half the volatility of the S&P 500.
+
+b. It's more convenient to invest via an ETF, since hedge funds often only allow accredited investors with a certain net worth to invest. Furthermore, you're able to invest in multiple hedge funds via an ETF, which allows diversification compared to having exposure to only one hedge fund.
 
 Answer: 
 
