@@ -2,6 +2,8 @@ Answers for READ Section of HW2:
 
 1. Alternative ETFs: Describe the two types of investments referenced by this term.
 
+The first type is Alternative Asset classes, which include investment types that provide exposure to real or tangible assets. These include real estate, commodities and preciouss metals, currencies, and private equity. The second type is Alternative strategies, which tend to use more unconventional approaches like maintaining multiple x leverage, short selling a particular position, and absolute return. These alternative strategies can be less correlated to traditional strategies by design.
+
 Answer: 
 
 2. Hedge Funds: 
