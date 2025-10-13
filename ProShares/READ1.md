@@ -52,4 +52,5 @@ Hedge funds democratizes diversified hedge-fund beta at lower fees and restricti
 c. The fees of a typical hedge-fund are 2% on total assets plus 20% of excess returns if positive. HDG’s expense ratio is roughly 1% on total assets. What would their respective net Sharpe Ratios be, assuming both have a gross excess returns of 10% and volatility of 20%?
 
 For the typical hedge-fund, it would be (10 - 10 * 0.2 - 2)/20 = 0.3
+
 For the HDG, it is (10 - 1)/20 = 0.45
