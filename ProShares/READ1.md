@@ -4,8 +4,6 @@ Answers for READ Section of HW2:
 
 The first type is Alternative Asset classes, which include investment types that provide exposure to real or tangible assets. These include real estate, commodities and preciouss metals, currencies, and private equity. The second type is Alternative strategies, which tend to use more unconventional approaches like maintaining multiple x leverage, short selling a particular position, and absolute return. These alternative strategies can be less correlated to traditional strategies by design.
 
-Answer: 
-
 2. Hedge Funds: 
 a. Using just the information in the case, what are two measures by which hedge funds are an attractive investment?
 
@@ -16,11 +14,10 @@ b. What are the main benefits of investing in hedge funds via an ETF instead of 
 
 It's more convenient to invest via an ETF, since hedge funds often only allow accredited investors with a certain net worth to invest. Furthermore, you're able to invest in multiple hedge funds via an ETF, which allows diversification compared to having exposure to only one hedge fund.
 
-Answer: 
-
 3. Benchmarks:
 
 a. Explain as simply as possible how HFRI, MLFM, MLFM-ES, and HDG differ in their construction and purpose.
+
 The Hedge Fund Research index reflects the collective performance of over 2000 hedge funds that are only available to accredited investors. By tracking this performance, it aims to diversify and introduce the returns of these hedge funds to a wider audience.
 
 The Merrill Lynch Factor Model aims to replicate hedge fund returns using six factors (S&P 500, Russell 2000, MSCI EAFE, MSCI EM, USD/EUR FX, 3-mo Eurodollar), updated monthly and with exposure constraints at each rebalance.
@@ -42,12 +39,17 @@ d. What are the main concerns you have for how the MLFM attempts to replicate th
 
 - Dynamic regression used to construct the weight of six factors was a backwards-looking exercise that lagged behind since it didn't know about changes in hedge fund styles. This methodology could be concerning.
 
-Answer: 
-
 4. The HDG Product:
+
 a. What does ProShares ETF, HDG, attempt to track? Is the tracking error small?
+
+It attempts to track the MLFM-ES and has a small tracking error.
+
 b. HDG is, by construction, delivering beta for investors. Isn’t the point of hedge funds to generate alpha? Then why would HDG be valuable?
+
+Hedge funds democratizes diversified hedge-fund beta at lower fees and restrictions compared to investing in a single hedge fund. Adidtionally, as opposed to a single hedge fund, HDG provides diversification.
+
 c. The fees of a typical hedge-fund are 2% on total assets plus 20% of excess returns if positive. HDG’s expense ratio is roughly 1% on total assets. What would their respective net Sharpe Ratios be, assuming both have a gross excess returns of 10% and volatility of 20%?
 
-Answer: 
-
+For the typical hedge-fund, it would be (10 - 10 * 0.2 - 2)/20 = 0.3
+For the HDG, it is (10 - 1)/20 = 0.45
